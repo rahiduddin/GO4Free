@@ -5,3 +5,10 @@ header, footer {
     clear: left;
     text-align: center;
 }
+
+body{
+    background-image: url("/cslab/home/KeonneGraham/APPENGINE/GO4Free/9805756-Summer-background-with-flowers-and-ladybirds-Vector-illustration-Stock-Vector.jpg");
+    background-repeat: repeat-y;
+    background-size:cover;
+
+}
