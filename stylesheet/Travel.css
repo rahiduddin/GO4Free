@@ -1,3 +1,38 @@
 body{
-  background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/14058/nature-china-travel-1920x1080-wallpaper.jpg);
+  background-image: url(http://tremendouswallpapers.com/wp-content/uploads/2014/12/Travel-HD-Wallpapers-14.jpg);
+
+}
+#tr1{
+  background-color: black;
+   background: rgba(200,54,54, 0.5);
+}
+p{
+  font-size: 30px;
+  color: white;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
 }
