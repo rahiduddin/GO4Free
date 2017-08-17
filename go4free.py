@@ -15,6 +15,10 @@ class EventsHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('Events.html')
         self.response.write(template.render())
+class TravelHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('Travel.html')
+        self.response.write(template.render())
 
 class MapHandler(webapp2.RequestHandler):
     def get (self):
@@ -40,4 +44,5 @@ app = webapp2.WSGIApplication([
     ('/Career',JobsHandler),
     ('/relaxation',RelaxtionHandler),
     ('/maps',MapHandler),
+    ('/Travel',TravelHandler)
 ], debug=True)
