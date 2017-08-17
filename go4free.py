@@ -17,9 +17,14 @@ class JobsHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('Jobs.html')
         self.response.write(template.render())
+class RelaxtionHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('relaxtion.html')
+        self.response.write(template.render())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/Events',EventsHandler),
     ('/Career',JobsHandler),
+    ('/relaxtion',RelaxtionHandler),
 ], debug=True)
