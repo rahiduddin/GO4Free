@@ -9,8 +9,10 @@ ul {
     overflow: hidden;
 }
 
+
 li {
     float: left;
+    font-size: 30px;
 }
 
 li a {
