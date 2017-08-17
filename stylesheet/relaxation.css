@@ -1,5 +1,6 @@
 body{
   background-image: url(https://www.google.com/url?hl=en&q=http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/Pink-wallpaper-21.jpg&source=gmail&ust=1503081373332000&usg=AFQjCNEHr9H7QbcSBREZE-Av5XsO_eldLQ);
+  text-shadow: 2px 2px 5px red;
 }
 ul {
     list-style-type: none;
