@@ -33,8 +33,14 @@ li a:hover:not(.active) {
 header, footer {
     padding: 1em;
     color: green;
-    font-size: 500%;
+    font-size: 550%;
 
     clear: left;
     text-align: center;
+}
+h1{
+  clear: left;
+  text-align: center;
+  color: green;
+  font-size: 43px;
 }
